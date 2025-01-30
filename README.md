@@ -14,7 +14,7 @@ A comprehensive security analysis tool for Windows COM objects.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/comscope.git
+git clone https://github.com/your-username/compass.git
 cd compass
 
 # Install in development mode
@@ -37,19 +37,19 @@ python run_analyzer.py
 Options:
 ```bash
 # Show available modules
-python run_analyzer.py --list-modules
+python3 run_analyzer.py --list-modules
 
 # Skip slow method discovery
-python run_analyzer.py --skip methods
+python3 run_analyzer.py --skip methods
 
 # Run specific modules only
-python run_analyzer.py --modules registry,security
+python3 run_analyzer.py --modules registry,security
 
 # Enable debug output
-python run_analyzer.py -d
+python3 run_analyzer.py -d
 
 # Save results to file
-python run_analyzer.py -o results.json
+python3 run_analyzer.py -o results.json
 ```
 
 ## Module Description
