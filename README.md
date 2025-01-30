@@ -57,7 +57,7 @@ python3 run_analyzer.py -o results.json
 - **registry**: Analyzes COM object registry entries
 - **security**: Checks security descriptors and permissions
 - **methods**: Discovers and analyzes COM object methods
-- **vulnerabilities**: Identifies security issues
+- **vulnerabilities**: Identifies security issues 
 
 ## Example Output
 
