@@ -31,7 +31,7 @@ pip install -e .
 
 Basic usage:
 ```bash
-python run_analyzer.py
+python3 run_analyzer.py
 ```
 
 Options:
